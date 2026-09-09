@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Emoji Lines</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Canvas donde dibujaremos las líneas -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Emojis que aparecen sobre las líneas -->
+    <div id="emoji-layer"></div>
+
+    <!-- Interfaz -->
+    <div id="ui">
+
+        <div class="logo">
+            EMOJI LINES
+        </div>
+
+        <div class="instructions">
+            Mové el mouse para dibujar
+        </div>
+
+        <div class="controls">
+
+            <button id="clearButton">
+                Limpiar
+            </button>
+
+            <button id="modeButton">
+                Modo: Dibujar
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
